@@ -200,9 +200,6 @@
           top: 2655px;
       }
       
-      
-      
-      
       .email, .phone {
           font-family: "Aleo", serif;
           font-size: 30px;
@@ -230,7 +227,15 @@
       }
 
       .email-info {
+          color: black;
+          text-decoration: none;
+          font-style: italic;
           left: 442px;
+      }
+
+      .email-info a:hover {
+          text-decoration: underline;
+          color: #D4B682;
       }
 
       .phone-info {
@@ -313,11 +318,11 @@ Date retrieved: [December 6, 2025] */
 
 <ul>
     <img class="logo" src="logo.png" alt="logo" height="40">
-    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#map">Map</a></li>
     <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#contactus">Contact Us</a></li>
+    <li><a class="active" href="#contact Us"> Contact Us</a></li>
     <li><a href="#search">Search</a></li>
 </ul>
   
@@ -411,8 +416,8 @@ Date retrieved: [December 6, 2025] */
   
 
   <div class="email">Email</div>
-  
   <p class="email-info"><a href="mailto:j47patel@uwaterloo.ca">j47patel@uwaterloo.ca</a></p>
+
 
   <div class="phone">Phone</div>
   <p class="phone-info">416-123-4567</p>
